@@ -15,7 +15,14 @@ std::string GetDirectoryFromPath(const std::string& str)
 {
 	size_t found;
 	found = str.find_last_of("/\\");
-	return str.substr(0, found);
+	if (std::string::npos == found) //not found
+	{
+		return ".";
+	}
+	else //found
+	{
+		return str.substr(0, found);
+	}
 }
 
 
@@ -29,7 +36,7 @@ int imageFileIO::FILE_SaveImageTiffR(cv::Mat matImage,
 	{
 		std::cout << "directory = " << directory << " does not exist!\n";
 		intStatus = -1;
-		goto Exit;
+		return intStatus;
 	}
 
 	
