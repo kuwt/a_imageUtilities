@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "medianFilter", "medianFilter\medianFilter.vcxproj", "{FF19EF12-DCF3-44EC-8333-9D660C873E9C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "medianFilterFloat", "medianFilterFloat\medianFilterFloat.vcxproj", "{FCB7FD72-2FA4-4996-9734-9E742BBB1A6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DepthToColorMapping", "DepthToColorMapping\DepthToColorMapping.vcxproj", "{8AFFF0F0-BEE6-4C09-B6DD-0C7874663D29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{FCB7FD72-2FA4-4996-9734-9E742BBB1A6B}.Release|x64.Build.0 = Release|x64
 		{FCB7FD72-2FA4-4996-9734-9E742BBB1A6B}.Release|x86.ActiveCfg = Release|Win32
 		{FCB7FD72-2FA4-4996-9734-9E742BBB1A6B}.Release|x86.Build.0 = Release|Win32
+		{8AFFF0F0-BEE6-4C09-B6DD-0C7874663D29}.Debug|x64.ActiveCfg = Debug|x64
+		{8AFFF0F0-BEE6-4C09-B6DD-0C7874663D29}.Debug|x64.Build.0 = Debug|x64
+		{8AFFF0F0-BEE6-4C09-B6DD-0C7874663D29}.Debug|x86.ActiveCfg = Debug|Win32
+		{8AFFF0F0-BEE6-4C09-B6DD-0C7874663D29}.Debug|x86.Build.0 = Debug|Win32
+		{8AFFF0F0-BEE6-4C09-B6DD-0C7874663D29}.Release|x64.ActiveCfg = Release|x64
+		{8AFFF0F0-BEE6-4C09-B6DD-0C7874663D29}.Release|x64.Build.0 = Release|x64
+		{8AFFF0F0-BEE6-4C09-B6DD-0C7874663D29}.Release|x86.ActiveCfg = Release|Win32
+		{8AFFF0F0-BEE6-4C09-B6DD-0C7874663D29}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
