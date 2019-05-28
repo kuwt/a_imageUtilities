@@ -4,12 +4,6 @@
 #include "stdafx.h"
 #include <opencv2\opencv.hpp>
 
-#include <ImfRgbaFile.h>
-#include <ImfStringAttribute.h>
-#include <ImfMatrixAttribute.h>
-#include <ImfArray.h>
-#include <ImfNamespace.h>
-
 #include <iostream>
 #include <algorithm>
 
