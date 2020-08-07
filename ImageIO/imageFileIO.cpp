@@ -214,7 +214,7 @@ int imageFileIO::FileSaveImage_realto8bit(cv::Mat matImage, std::string strFilen
 
 cv::Mat imageFileIO::loadImage(const std::string& name)
 {
-	cv::Mat image = loadImage(name, CV_LOAD_IMAGE_GRAYSCALE);
+	cv::Mat image = loadImage(name, cv::IMREAD_GRAYSCALE);
 	return image;
 }
 
